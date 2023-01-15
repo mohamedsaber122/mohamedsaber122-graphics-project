@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My PowerPoint Presentation</title>
+  <title>Computer Graphics Project</title>
   <style>
     /* CSS styles to make the page look like a PowerPoint slide */
     body {
@@ -9,45 +9,55 @@
       margin: 0;
       padding: 0;
     }
+    #ainshams-icon {
+      width: 57.5px; /* 15% increase from original width of 50px */
+      margin-top: 10px;
+      margin-left: 10px;
+    }
     #title {
-      font-size: 36px;
+      font-size: 48px;
+      color: red;
       font-weight: bold;
       text-align: center;
-      margin-top: 50px;
     }
     #subtitle {
       font-size: 24px;
       text-align: center;
-      margin-top: 20px;
-    }
-    #content {
-      font-size: 18px;
       margin-top: 50px;
-      margin-left: 100px;
-      margin-right: 100px;
     }
-    #image {
-      width: 300px;
-      height: 200px;
-      float: right;
-      margin-top: -150px;
-      margin-right: 100px;
+    /* Styles for different text indentation levels */
+    .content-2em {
+      font-size: 30px;
+      text-indent: 2em;
     }
-    #ainshams-icon {
-      width: 50px;
-      position: absolute;
-      top: 10px;
-      left: 10px;
+    .content-4em {
+      font-size: 20px;
+      text-indent: 4em;
+    }
+    .content-6em {
+      font-size: 16px;
+      text-indent: 6em;
     }
   </style>
 </head>
 <body>
-  <img id="ainshams-icon" src="ainshams-icon.png" alt="Ainshams Icon">
-  <div id="title">My PowerPoint Presentation</div>
-  <div id="subtitle">Slide 1</div>
-  <div id="content">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna id tristique dictum, nulla velit aliquam augue, vel laoreet velit velit in enim.
-  </div>
-  <img id="image" src="image.jpg" alt="A sample image">
+    <img id="ainshams-icon" src="ainshams-icon.png" alt="Ainshams Icon">
+    <div id="title">Computer Graphics Project</div>
+    <div id="subtitle">Presented to:<br>Dr. Mohamed Rehan<br>Presented by:<br>Omar Abelmoneim and Mohamed Saber</div>
+    <div id="content">
+      <p class="content-2em">
+      Understand Fundamentals of Computer Graphics<br>
+      <p class="content-4em">● Understand basics of drawing primitive shapes<br>
+      <p class="content-6em">&emsp;- Line drawing<br>
+      <p class="content-6em">&emsp;- Polygon clipping<br>
+      <p class="content-6em">&emsp;- Polygon filling<br>
+      <p class="content-4em">● Understand basics of Graphics Rendering<br>
+      <p class="content-6em">&emsp;- 2D/3D geometric transformation<br>
+      <p class="content-6em">&emsp;- Understand basics of 2D viewing<br>
+      <p class="content-6em">&emsp;- Understand basics of Projection<br>
+      <p class="content-6em">&emsp;- Understand basics of illumination models<br>
+      <p class="content-6em">&emsp;- Understand the elements of rendering<br>
+      <p class="content-4em">● Hands on experience on developing Computer 
+    </div>
 </body>
 </html>
